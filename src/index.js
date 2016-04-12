@@ -5,7 +5,7 @@ var h = maquette.h;
 var projector = maquette.createProjector();
 
 function renderMaquette() {
-  return h(`div.${styles.testClass}`, {
+  return h(`div.${styles.test}`, {
     classes: {
       [styles.dark]: true,
       [styles.big]: true
